@@ -6,6 +6,11 @@
     "terminal.integrated.shell.linux": "/bin/bash",
     "lldb.executable": "/usr/bin/lldb"
   },
+  "hostRequirements": {
+    "cpus": 16,
+    "memory": "32gb",
+    "storage": "128gb" 
+  },
   "extensions": [
     "rust-lang.rust-analyzer",
     "bungcip.better-toml",
