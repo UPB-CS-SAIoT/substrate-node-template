@@ -1,12 +1,13 @@
 {
   "name": "Substrate Node template",
   "context": "..",
+  "image": "paritytech/ci-linux:production",
   "settings": {
     "terminal.integrated.shell.linux": "/bin/bash",
     "lldb.executable": "/usr/bin/lldb"
   },
   "extensions": [
-    "rust-lang.rust",
+    "rust-lang.rust-analyzer",
     "bungcip.better-toml",
     "vadimcn.vscode-lldb"
   ],
